@@ -6,7 +6,7 @@ function App() {
       <Header />
       <p className="title">KEADEISH MORRISON</p>
       <p className="subheading">
-        Full-Stack Software Engineer [Under Development].
+        <i>Full-Stack Software Engineer [Under Development].</i>
       </p>
     </div>
   );
