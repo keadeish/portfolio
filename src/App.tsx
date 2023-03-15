@@ -1,14 +1,22 @@
 import "./App.css";
-import { Header } from "./components/Header";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { Homepage } from "./components/Homepage";
+import { Projects } from "./components/Projects";
+import { Experience } from "./components/Experience";
+import { Journey } from "./components/Journey";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
+
   return (
-    <div>
-      <Header />
-      <p className="title">KEADEISH MORRISON</p>
-      <p className="subheading">
-        <i>Full-Stack Software Engineer [Under Development].</i>
-      </p>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<Homepage />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/journey" element={<Journey />} />
+      </Routes>
+    </Router>
   );
 }
 

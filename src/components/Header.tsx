@@ -1,12 +1,28 @@
-export function Header(): JSX.Element {
+import { Link } from 'react-router-dom'
+import { ILinks } from '../Utils/Interfaces';
+export function Header({ selectedLink }: ILinks): JSX.Element {
+  //fix hyperlink colour and underline
+  let pages = ["about", "projects", "experience", "journey"]
   return (
     <>
-      <div id="headerContainer">
-        <div id="about">ABOUT</div>
-        <div id="projects">PROJECTS</div>
-        <div id="experience">EXPERIENCE</div>
-        <div id="journey">JOURNEY</div>
+      <div id='headerContainer'>
+
+        {pages.map((page, i) => {
+
+          if (selectedLink === page) {
+            return (
+              <Link id={`${selectedLink}Selected`} to={`/${page}`} key={i}>{page.toLocaleUpperCase()}</Link>)
+          }
+          return (
+            <Link id={`${page}`} to={`/${page}`} key={i}>{page.toLocaleUpperCase()}</Link>)
+
+        }
+
+        )}
+
       </div>
+
     </>
   );
 }
+//figure how to remove "/about"
