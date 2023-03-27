@@ -1,3 +1,3 @@
 export interface ILinks {
-    selectedLink: any
+  selectedLink: any;
 }
