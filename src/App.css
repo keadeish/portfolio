@@ -58,3 +58,98 @@
   height: 30px;
   padding-right: 20px;
 }
+
+.projectsBox {
+  /* border-radius: 25px; */
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid blue;
+  /* height: 70vh; */
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.projectCard {
+  border: 1px solid red;
+  width: 23vw;
+  background-color: #41423e;
+}
+
+#projectImage {
+  width: 23vw;
+  height: 30vh;
+}
+
+#projectCardTitle {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+#projectDescription {
+  border: 1px solid red;
+  color: white;
+  font-size: 1.2rem;
+  height: 10vh;
+}
+
+#projectsLinkButton {
+  fill: white;
+  height: 2vh;
+  margin-left: auto;
+}
+
+#technologyBox {
+  margin-top: 1vh;
+  display: flex;
+  justify-content: left;
+  color: white;
+}
+
+#technologyButton {
+  border: 1px solid white;
+  border-width: 2px;
+  border-radius: 5px;
+  margin-right: 0.3vw;
+  /* width: 4vw; */
+  padding-left: 5px;
+  padding-right: 5px;
+  min-width: fit-content;
+  color: white;
+  text-align: center;
+  /* max-width: 10vw; */
+}
+
+@media only screen and (max-width: 600px) {
+  .projectsBox {
+    margin-left: 0vw;
+    margin-right: 0vw;
+    border: 1cm solid red;
+    background-color: lightblue;
+    display: inline-table;
+    width: 100vw;
+  }
+
+  .projectCard {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border: 0cm;
+    width: 98vw;
+  }
+
+  #projectImage {
+    width: 98vw;
+    height: 40vh;
+  }
+
+  #technologyButton {
+    margin-right: 3vw;
+    width: fit-content;
+  }
+
+  #projectDescription {
+    color: white;
+    font-size: 1.2rem;
+  }
+}

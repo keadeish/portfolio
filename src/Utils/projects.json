@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "gitHubURL": "https://github.com/keadeish/anime",
+    "projectName": "Anime Website",
+    "description": "A simple React website displaying my personalised anime/manga statistics using Jikan API",
+    "technologies": ["React", "TypeScript", "CSS"],
+    "URL": "https://psychician.co.uk/",
+    "Image": "../../images/Anime Site Image.png"
+  },
+  {
+    "id": 2,
+    "gitHubURL": "https://github.com/maemastersdev/C5C2-Study-Resources-FrontEnd",
+    "gitHubBackendURL": "https://github.com/maemastersdev/C5C2-Study-Resources-Backend",
+    "projectName": "Study Resources Application",
+    "description": "A full-stack study platform to allow logged in users, to share and access multimedia learning content or study resources.",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "CSS",
+      "Bootstrap",
+      "Cypress"
+    ],
+    "URL": "https://c5c2-study-resources.netlify.app/",
+    "Image": "../../images/Study Resources Image.png"
+  },
+  {
+    "id": 3,
+    "gitHubURL": "https://github.com/SEVGI1231/dogBreedVote-frontend",
+    "gitHubBackendURL": "https://github.com/SEVGI1231/dogBreedVote",
+    "projectName": "Dog Voting Application",
+    "description": "A full-stack application that allows users to vote for their favourite dogs",
+    "technologies": ["React", "TypeScript", "Node.js", "CSS"],
+    "URL": "https://dog-breed-vote-sevgi-keadeish.netlify.app/",
+    "Image": "../../images/Dog Voting App.png"
+  },
+  {
+    "id": 4,
+    "gitHubURL": "https://github.com/keadeish/pastebin-front-end",
+    "gitHubBackendURL": "https://github.com/keadeish/pastebin-back-end",
+    "projectName": "Paste Bin Application",
+    "description": "A full-stack application that allows its users to store and share pastes",
+    "technologies": ["React", "TypeScript", "Node.js", "CSS", "Bootstrap"],
+    "URL": "https://pastebin-syed-keadeish.netlify.app/",
+    "Image": "../../images/Paste Bin Site.png"
+  }
+]
