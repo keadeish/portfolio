@@ -63,14 +63,14 @@
   /* border-radius: 25px; */
   display: flex;
   justify-content: space-between;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* height: 70vh; */
   margin-left: 1vw;
   margin-right: 1vw;
 }
 
 .projectCard {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 23vw;
   background-color: #41423e;
 }
@@ -83,14 +83,14 @@
 #projectCardTitle {
   font-family: "Courier New", Courier, monospace;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
 }
 
 #projectDescription {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   height: 10vh;
 }
 
@@ -98,11 +98,14 @@
   fill: white;
   height: 2vh;
   margin-left: auto;
+  display: block;
 }
 
 #technologyBox {
   margin-top: 1vh;
   display: flex;
+  flex-wrap: wrap;
+  /* display:inline-block; */
   justify-content: left;
   color: white;
 }
@@ -115,6 +118,7 @@
   /* width: 4vw; */
   padding-left: 5px;
   padding-right: 5px;
+  margin-top: 5px;
   min-width: fit-content;
   color: white;
   text-align: center;
@@ -125,8 +129,8 @@
   .projectsBox {
     margin-left: 0vw;
     margin-right: 0vw;
-    border: 1px solid red;
-    background-color: lightblue;
+    /* border: 1px solid red; */
+    /* background-color: lightblue; */
     display: inline-table;
     width: 100vw;
   }
@@ -144,7 +148,7 @@
   }
 
   #technologyButton {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-right: 3vw;
     width: fit-content;
   }
