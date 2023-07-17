@@ -3,7 +3,7 @@
     "id": 1,
     "gitHubURL": "https://github.com/keadeish/anime",
     "projectName": "Anime Website",
-    "description": "A simple React website displaying my personalised anime/manga statistics using Jikan API",
+    "description": "A simple React website displaying my personalised Anime & Manga statistics using Jikan API",
     "technologies": ["React", "TypeScript", "CSS"],
     "URL": "https://psychician.co.uk/",
     "Image": "../../images/Anime Site Image.png"
