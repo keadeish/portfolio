@@ -7,7 +7,7 @@ export function Experience(): JSX.Element {
       <Header selectedLink={name} />
       <p className="title">Experience</p>
       <p className="subheading">
-        {/* <i>Full-Stack Software Engineer [Under Development].</i> */}
+        <i>Full-Stack Software Engineer [Under Development].</i>
       </p>
     </div>
   );
