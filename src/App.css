@@ -125,7 +125,7 @@
   .projectsBox {
     margin-left: 0vw;
     margin-right: 0vw;
-    border: 1cm solid red;
+    border: 1px solid red;
     background-color: lightblue;
     display: inline-table;
     width: 100vw;
@@ -144,6 +144,7 @@
   }
 
   #technologyButton {
+    border: 1px solid red;
     margin-right: 3vw;
     width: fit-content;
   }
