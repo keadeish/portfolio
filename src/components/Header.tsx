@@ -7,13 +7,14 @@ export function Header({ selectedLink }: ILinks): JSX.Element {
     <>
       <div id="headerContainer">
         {pages.map((page, i) => {
-          if (selectedLink === page) {
+          if (page === 'about') {
             return (
-              <Link id={`${selectedLink}Selected`} to={`/${page}`} key={i}>
+              <Link id={`${page}`} to={`/`} key={i}>
                 {page.toLocaleUpperCase()}
               </Link>
             );
           }
+          else
           return (
             <Link id={`${page}`} to={`/${page}`} key={i}>
               {page.toLocaleUpperCase()}
