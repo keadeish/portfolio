@@ -20,6 +20,7 @@ export function ProjectCard(props: IProjectInfo): JSX.Element {
         ))}
 
       </div>
+      <br></br>
               <a href={props.URL}>
           <img
             id="projectsLinkButton"
