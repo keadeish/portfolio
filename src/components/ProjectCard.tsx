@@ -18,16 +18,15 @@ export function ProjectCard(props: IProjectInfo): JSX.Element {
             <b>{props.technologies[index]}</b>
           </div>
         ))}
-
       </div>
       <br></br>
-              <a href={props.URL}>
-          <img
-            id="projectsLinkButton"
-            src="/images/box-arrow-up-right.svg"
-            alt=""
-          ></img>
-        </a>
+      <a href={props.URL}>
+        <img
+          id="projectsLinkButton"
+          src="/images/box-arrow-up-right.svg"
+          alt=""
+        ></img>
+      </a>
     </div>
   );
 }

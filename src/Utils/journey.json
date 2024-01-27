@@ -1,0 +1,52 @@
+[
+  {
+    "year": 2024,
+    "experiences": [
+      {
+        "id": 1,
+        "experience": "Taylor Wessing",
+        "about": "test test test test test",
+        "image": "../../images/linkedin.svg"
+      }
+    ],
+    "branches": 1
+  },
+
+  {
+    "year": 2023,
+    "experiences": [
+      {
+        "id": 1,
+        "experience": "Taylor Wessing",
+        "about": "test test test test test",
+        "image": "../../images/linkedin.svg"
+      },
+      {
+        "id": 2,
+        "experience": "Test Experience",
+        "about": "test test test test test",
+        "image": "../../images/linkedin.svg"
+      }
+    ],
+    "branches": 2
+  },
+
+  {
+    "year": 2022,
+    "experiences": [
+      {
+        "id": 1,
+        "experience": "Taylor Wessing",
+        "about": "test test test test test",
+        "image": "../../images/linkedin.svg"
+      },
+      {
+        "id": 2,
+        "experience": "Test Experience",
+        "about": "test test test test test",
+        "image": "../../images/linkedin.svg"
+      }
+    ],
+    "branches": 3
+  }
+]

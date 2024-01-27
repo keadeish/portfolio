@@ -10,3 +10,16 @@ export interface IProjectInfo {
   URL: string;
   description: string;
 }
+
+export interface IJourney {
+  year: number;
+  experiences: IExperience[];
+  branches: number;
+}
+
+interface IExperience {
+  id: number;
+  experience: string;
+  about: string;
+  image: string;
+}
