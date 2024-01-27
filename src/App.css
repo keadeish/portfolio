@@ -168,7 +168,7 @@
 
 #year {
   position: relative;
-  width:15ch; /* 10% of viewport width */
+  width: 15ch; /* 10% of viewport width */
   height: 15ch;
   /* max-width: 500px;  */
   /* max-height: 500px; */
@@ -181,8 +181,6 @@
   font-size: 1.5rem; /* Adjust the font size as needed */
   /* margin-top: 15vh; */
 }
-
-
 
 #cvBox:hover {
   background-color: rgb(202, 201, 201);
