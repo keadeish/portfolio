@@ -186,18 +186,17 @@
 }
 
 @media only screen and (max-width: 600px) {
-
   #projectCardTitle {
     /* border: 1px solid green; */
-  font-family: "Courier New", Courier, monospace;
-  height: 5vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 1.5rem;
-  color: white;
-}
+    font-family: "Courier New", Courier, monospace;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+  }
 
   .projectsBox {
     /* background-color: red; */
