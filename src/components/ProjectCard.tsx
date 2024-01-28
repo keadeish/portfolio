@@ -3,7 +3,7 @@ export function ProjectCard(props: IProjectInfo): JSX.Element {
   return (
     <div className="projectCard">
       <b>
-        <p id="projectCardTitle">{props.projectName}</p>
+        <span id="projectCardTitle">{props.projectName}</span>
       </b>
       <a href={props.URL}>
         <img id="projectImage" alt="" src={props.imageURL}></img>

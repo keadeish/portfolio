@@ -70,7 +70,6 @@
 }
 
 .projectCard {
-  /* border: 1px solid red; */
   position: relative;
   width: 23vw;
   background-color: #41423e;
@@ -83,7 +82,7 @@
 
 #projectCardTitle {
   font-family: "Courier New", Courier, monospace;
-  height: 5vh;
+  height: 6rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -187,7 +186,21 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+  #projectCardTitle {
+    /* border: 1px solid green; */
+  font-family: "Courier New", Courier, monospace;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
   .projectsBox {
+    /* background-color: red; */
     margin-left: 0vw;
     margin-right: 0vw;
     /* border: 1px solid red; */
@@ -197,6 +210,8 @@
   }
 
   .projectCard {
+    margin-top: 2vh;
+    border: 1px solid red;
     margin-left: 1vw;
     margin-right: 1vw;
     border: 0cm;
@@ -205,7 +220,7 @@
 
   #projectImage {
     width: 98vw;
-    height: 40vh;
+    height: 30vh;
   }
 
   #technologyButton {
