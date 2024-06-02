@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ILinks } from "../Utils/Interfaces";
 export function Header({ selectedLink }: ILinks): JSX.Element {
-  let pages = ["about", "projects", "experience", "journey"];
+  let pages = ["about", "projects", "experience" /*, "journey"*/];
   return (
     <>
       <div id="headerContainer">

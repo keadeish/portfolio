@@ -7,7 +7,7 @@ export function Homepage(): JSX.Element {
       <Header selectedLink={name} />
       <p className="title">KEADEISH MORRISON</p>
       <p className="subheading">
-        <i>Full-Stack Software Engineer [Under Development].</i>
+        <i>Full-Stack Software Engineer.</i>
       </p>
       <div id="icons">
         <a href="https://www.linkedin.com/in/keadeish-morrison/">

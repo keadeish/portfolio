@@ -8,10 +8,7 @@ export function ProjectCard(props: IProjectInfo): JSX.Element {
       <a href={props.URL}>
         <img id="projectImage" alt="" src={props.imageURL}></img>
       </a>
-      <div id="projectDescription">
-        {props.description}
-        {/* {props.gitHubURL} {props.gitHubBackendURL} */}
-      </div>
+      <div id="projectDescription">{props.description}</div>
       <div id="technologyBox">
         {props.technologies.map((e, index) => (
           <div id="technologyButton">

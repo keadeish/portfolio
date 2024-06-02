@@ -60,16 +60,17 @@
 }
 
 .projectsBox {
-  /* border-radius: 25px; */
+  /* overflow-x: auto;   */
   display: flex;
-  justify-content: space-between;
-  /* border: 1px solid blue; */
-  /* height: 70vh; */
+  flex-wrap: wrap;
+  justify-content: flex-start;
   margin-left: 1vw;
   margin-right: 1vw;
 }
 
 .projectCard {
+  margin: 0 10px 10px 0;
+  margin-bottom: 1vh;
   position: relative;
   width: 23vw;
   background-color: #41423e;
@@ -77,7 +78,7 @@
 
 #projectImage {
   width: 23vw;
-  height: 30vh;
+  height: 32vh;
 }
 
 #projectCardTitle {
@@ -141,6 +142,7 @@
 
 #htmlLink {
   color: black;
+  text-decoration: none;
 }
 
 #cvBox {
