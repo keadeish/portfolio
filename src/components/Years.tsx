@@ -11,4 +11,3 @@ export function Years(props: IJourney): JSX.Element {
     </div>
   );
 }
-//find a way to make the first year not move. whereas the subsequent years can be a lot lower depending on branches
