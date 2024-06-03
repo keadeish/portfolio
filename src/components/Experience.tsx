@@ -10,14 +10,14 @@ export function Experience(): JSX.Element {
       <Header selectedLink={name} />
       <p className="title">Experience</p>
       <p className="subheading">
-        Greetings. I'm London-based <b>full-stack software engineer</b> that has
+        Greetings. I'm London-based full-stack software engineer that has
         graduated from{" "}
         <a id="htmlLink" href="https://academy.tech/">
-          <b>Academy's software development program.</b>
+          Academy's software development program.
         </a>{" "}
-        <br />I have experience with both <b>JavaScript & TypeScript</b> and I'm
+        <br />I have experience with both JavaScript & TypeScript and I'm
         an avid user of libraries commonly used for testing & automation, such
-        as <b>Puppeteer.js</b>.
+        as Puppeteer.js.
       </p>
       <div id="cvBox" onClick={handleButtonClick}>
         CV
