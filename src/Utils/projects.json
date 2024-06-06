@@ -62,6 +62,6 @@
     "description": "A compilation of functional PowerShell scripts that I made during my time at Taylor Wessing. Interacts with Active Directory & Microsoft Exchange PowerShell modules.",
     "technologies": ["PowerShell"],
     "URL": "https://github.com/keadeish/PowerShell-Functional-Scripts",
-    "Image": "../../images/TWLogo.jpg"
+    "Image": "../../images/TWLogo.svg"
   }
 ]
