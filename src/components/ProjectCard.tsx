@@ -24,6 +24,9 @@ export function ProjectCard(props: IProjectInfo): JSX.Element {
           alt=""
         ></img>
       </a>
+      <a href={props.gitHubURL}>
+        <img id="githubLinkButton" src="/images/githubLinked.svg" alt=""></img>
+      </a>
     </div>
   );
 }

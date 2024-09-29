@@ -15,9 +15,9 @@ export function Experience(): JSX.Element {
         <a id="htmlLink" href="https://academy.tech/">
           Academy's software development program.
         </a>{" "}
-        <br />I have experience with both JavaScript & TypeScript and I'm
-        an avid user of libraries commonly used for testing & automation, such
-        as Puppeteer.js.
+        <br />I have experience with both JavaScript & TypeScript and I'm an
+        avid user of libraries commonly used for testing & automation, such as
+        Puppeteer.js.
       </p>
       <div id="cvBox" onClick={handleButtonClick}>
         CV

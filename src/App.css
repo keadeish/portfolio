@@ -113,6 +113,16 @@
   right: 0%;
 }
 
+#githubLinkButton {
+  fill: white;
+  height: 2vh;
+  margin-left: auto;
+  display: block;
+  position: absolute;
+  bottom: 0%;
+  right: 7%;
+}
+
 #technologyBox {
   padding-left: 0.5vw;
   padding-right: 0.5vw;
