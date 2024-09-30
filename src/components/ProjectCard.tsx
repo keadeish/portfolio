@@ -17,13 +17,13 @@ export function ProjectCard(props: IProjectInfo): JSX.Element {
         ))}
       </div>
       <br></br>
-      <a href={props.URL}>
+      {/* <a href={props.URL}>
         <img
           id="projectsLinkButton"
           src="/images/box-arrow-up-right.svg"
           alt=""
         ></img>
-      </a>
+      </a> */}
       <a href={props.gitHubURL}>
         <img id="githubLinkButton" src="/images/githubLinked.svg" alt=""></img>
       </a>

@@ -103,9 +103,19 @@
   overflow: auto;
 }
 
-#projectsLinkButton {
+/* #projectsLinkButton {
   fill: white;
-  height: 2vh;
+  height: 3vh;
+  margin-left: auto;
+  display: block;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+} */
+
+#githubLinkButton {
+  fill: white;
+  height: 3vh;
   margin-left: auto;
   display: block;
   position: absolute;
@@ -113,15 +123,16 @@
   right: 0%;
 }
 
-#githubLinkButton {
+/* #githubLinkButton {
   fill: white;
-  height: 2vh;
+  height: 3vh;
   margin-left: auto;
+  margin-right: 1vw;
   display: block;
   position: absolute;
   bottom: 0%;
   right: 7%;
-}
+} */
 
 #technologyBox {
   padding-left: 0.5vw;
