@@ -27,13 +27,12 @@
   },
   {
     "id": 3,
-    "gitHubURL": "https://github.com/SEVGI1231/dogBreedVote-frontend",
-    "gitHubBackendURL": "https://github.com/SEVGI1231/dogBreedVote",
-    "projectName": "Dog Voting Website",
-    "description": "A full-stack application that allows users to vote for their favourite dogs",
-    "technologies": ["React", "TypeScript", "Node.js", "CSS"],
-    "URL": "https://dog-breed-vote-sevgi-keadeish.netlify.app/",
-    "Image": "../../images/Dog Voting App.png"
+    "gitHubURL": "https://github.com/keadeish/crocs-monitor-backend",
+    "projectName": "Crocs Web Scraper",
+    "description": "A Node.js script to scrape the Crocs website for item availability and stock status.",
+    "technologies": ["Node.js", "TypeScript", "Puppeteer", "Discord.js", "Antibot"],
+    "URL": "https://github.com/keadeish/crocs-monitor-backend",
+    "Image": "../../images/Crocs Logo.svg"
   },
   {
     "id": 4,
@@ -63,5 +62,14 @@
     "technologies": ["PowerShell"],
     "URL": "https://github.com/keadeish/PowerShell-Functional-Scripts",
     "Image": "../../images/TWLogo.svg"
+  },   {
+    "id": 7,
+    "gitHubURL": "https://github.com/SEVGI1231/dogBreedVote-frontend",
+    "gitHubBackendURL": "https://github.com/SEVGI1231/dogBreedVote",
+    "projectName": "Dog Voting Website",
+    "description": "A full-stack application that allows users to vote for their favourite dogs",
+    "technologies": ["React", "TypeScript", "Node.js", "CSS"],
+    "URL": "https://dog-breed-vote-sevgi-keadeish.netlify.app/",
+    "Image": "../../images/Dog Voting App.png"
   }
 ]

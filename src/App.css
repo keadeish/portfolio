@@ -77,6 +77,8 @@
 }
 
 #projectImage {
+  /* border: 1px solid black; */
+  background-color: white;
   width: 23vw;
   height: 32vh;
 }
@@ -222,7 +224,6 @@
 
   .projectCard {
     margin-top: 2vh;
-    border: 1px solid red;
     margin-left: 1vw;
     margin-right: 1vw;
     border: 0cm;
@@ -232,6 +233,7 @@
   #projectImage {
     width: 98vw;
     height: 30vh;
+    background-color: white;
   }
 
   #technologyButton {
