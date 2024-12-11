@@ -129,7 +129,7 @@
   right: 0%;
 }
 #githubLinkButton:hover {
-  filter: invert(100%);
+  filter: invert(40%);
 }
 
 /* #githubLinkButton {

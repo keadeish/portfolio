@@ -10,7 +10,7 @@ export function Experience(): JSX.Element {
       <Header selectedLink={name} />
       <p className="title">Experience</p>
       <p className="subheading">
-        Greetings. I'm London-based full-stack software engineer that has
+        Greetings! I'm London-based full-stack software engineer that has
         graduated from{" "}
         <a id="htmlLink" href="https://academy.tech/">
           Academy's software development program.
