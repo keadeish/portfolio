@@ -64,13 +64,11 @@
 }
 
 .projectsBox {
-  /* overflow-x: auto;   */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  margin-left: auto;
-  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* max 4 columns */
+  gap: 10px; /* small spacing */
   max-width: 95vw;
+  margin: 0 auto;
 }
 
 .projectCard {
